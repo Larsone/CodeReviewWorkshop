@@ -37,6 +37,9 @@ This is a list of some of the issues within in the code that those doing the wor
 * Code convention (includes variable naming etc.)
    * Convention is always changing
    * Padding throughout code leaves empty lines
+   * Javadoc on only one function?
+      * "All" functions should have documentation
+         * _My Preference_ - Though you may wish to disagree for non-library functions, I find it's a good practise to always do this to help with maintenance.
    * Company likely has an agreed code convention:
       * In Java this is likely to be Camel Case:
          * Variable: myVariable
