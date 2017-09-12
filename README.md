@@ -57,7 +57,8 @@ This is a list of some of the issues within in the code that those doing the wor
 * Data type misuse
    * Why return a String for "yep" or "nope" when what is really needed is a Boolean
 
-### Advanced <a name="adv"></a>
+<a name="adv"></a>
+### Advanced 
 Some may notice more advanced points around this implementation; here are a couple of things they may notice:
  
 * It doesn't work...
