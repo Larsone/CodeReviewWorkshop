@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Code Reviews are apart of the Software Lifecycle; this exercise is designed to introduce you to the process. The code itself is the worst thing I’ve ever written, it has some some nightmare inducing situations, multiple standards and the less said about the comments the better. The code can be used as baseline, an instructor can lead a team through the code, allowing them to run the exercise to best match the approach the team wants to enforce.
+Code Reviews are a part of the Software Lifecycle; this exercise is designed to introduce you to the process. The code itself is the worst thing I’ve ever written, it has some some nightmare inducing situations, multiple standards and the less said about the comments the better. The code can be used as baseline, an instructor can lead a team through the code, allowing them to run the exercise to best match the approach the team wants to enforce.
 
 ## Suggested Run
 * Introduction (2 mins)
@@ -36,6 +36,7 @@ This is a list of some of the issues within in the code that those doing the wor
    * Pointless comments
 * Code convention (includes variable naming etc.)
    * Convention is always changing
+   * Padding throughout code leaves empty lines
    * Company likely has an agreed code convention:
       * In Java this is likely to be Camel Case:
          * Variable: myVariable
@@ -71,3 +72,5 @@ Some may notice more advanced points around this implementation; here are a coup
    * For every word in the array we re-open the file to read
    * The file is never closed
    * It should be read into memory and inspected there
+* Multiple Kafka producers are created
+   * This should be created once a re-used
